@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background:#f3f3f3;
+  padding:3rem ;
+}
+#root{
+  text-color:#225473;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  aling-items:center;
+  gap:3rem;
+  width:700px;
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
